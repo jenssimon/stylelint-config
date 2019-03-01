@@ -20,7 +20,7 @@
     "stylelint-config-rational-order": "^0.0.4",
     "stylelint-config-standard": "^18.2.0",
     "stylelint-order": "^2.0.0",
-    "stylelint-scss": "^3.5.3"
+    "stylelint-scss": "^3.5.4"
   },
   "peerDependencies": {
     "stylelint": ">=9.0.0"
@@ -28,12 +28,13 @@
   "devDependencies": {
     "@jenssimon/eslint-config-base": "^1.0.3",
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.13.0",
+    "eslint": "^5.14.1",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-dollar-sign": "^1.0.1",
-    "eslint-plugin-eslint-comments": "^3.1.0",
+    "eslint-plugin-dollar-sign": "^1.0.2",
+    "eslint-plugin-eslint-comments": "^3.1.1",
     "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.3.0",
     "eslint-plugin-jquery": "^1.5.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-promise": "^4.0.1",
