@@ -2,12 +2,12 @@
 
 # stylelint-config
 
-> A collection of shareable ESLint configurations for both client and server side code
+> A collection of shareable Stylelint configurations
 
 ## Installation
 
 ```sh
-$ yarn add @jenssimon/stylelint-config
+$ yarn add @jenssimon/stylelint-config --dev
 ```
 
 ## Configurations
