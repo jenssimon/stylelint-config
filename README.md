@@ -1,4 +1,4 @@
-[![NPM version][npm-image]][npm-url] [![Downloads][npm-downloads-image]][npm-url] [![Dependencies][deps-image]][deps-url] [![star this repo][gh-stars-image]][gh-url] [![fork this repo][gh-forks-image]][gh-url] ![Code Style][codestyle-image]
+[![NPM version][npm-image]][npm-url] [![Downloads][npm-downloads-image]][npm-url] [![Dependencies][deps-image]][deps-url] [![star this repo][gh-stars-image]][gh-url] [![fork this repo][gh-forks-image]][gh-url] [![Build Status][travis-image]][travis-url] ![Code Style][codestyle-image]
 
 # stylelint-config
 
@@ -66,5 +66,8 @@ MIT © 2019 [Jens Simon](https://github.com/jenssimon)
 [gh-url]: https://github.com/jenssimon/stylelint-config
 [gh-stars-image]: https://badgen.net/github/stars/jenssimon/stylelint-config
 [gh-forks-image]: https://badgen.net/github/forks/jenssimon/stylelint-config
+
+[travis-url]: https://travis-ci.com/jenssimon/stylelint-config
+[travis-image]: https://travis-ci.com/jenssimon/stylelint-config.svg?branch=master
 
 [codestyle-image]: https://badgen.net/badge/code%20style/airbnb/f2a
