@@ -19,7 +19,7 @@
   "dependencies": {
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^19.0.0",
-    "stylelint-order": "^3.1.0",
+    "stylelint-order": "^3.1.1",
     "stylelint-scss": "^3.10.1"
   },
   "peerDependencies": {
