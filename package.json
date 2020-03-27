@@ -1,6 +1,6 @@
 {
   "name": "@jenssimon/stylelint-config",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A collection of shareable Stylelint configurations",
   "main": "index.js",
   "author": "Jens Simon <https://github.com/jenssimon>",
