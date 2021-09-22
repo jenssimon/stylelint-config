@@ -20,14 +20,14 @@
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^22.0.0",
     "stylelint-order": "^4.1.0",
-    "stylelint-scss": "^3.19.0"
+    "stylelint-scss": "^3.21.0"
   },
   "peerDependencies": {
     "stylelint": ">=11.0.0"
   },
   "devDependencies": {
-    "@jenssimon/eslint-config-base": "^4.0.0",
-    "eslint": "^7.28.0",
+    "@jenssimon/eslint-config-base": "^4.0.1",
+    "eslint": "^7.32.0",
     "stylelint": "^13.13.1"
   },
   "eslintConfig": {
