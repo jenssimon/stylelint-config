@@ -338,7 +338,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jenssimon/eslint-config-base@npm:^5.3.0":
+"@jenssimon/eslint-config-base@npm:5.3.0":
   version: 5.3.0
   resolution: "@jenssimon/eslint-config-base@npm:5.3.0"
   dependencies:
@@ -368,9 +368,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@jenssimon/stylelint-config@workspace:."
   dependencies:
-    "@jenssimon/eslint-config-base": ^5.3.0
-    eslint: ^8.9.0
-    stylelint: ^14.5.1
+    "@jenssimon/eslint-config-base": 5.3.0
+    eslint: 8.9.0
+    stylelint: 14.5.1
     stylelint-config-recess-order: ^3.0.0
     stylelint-config-standard: ^24.0.0
     stylelint-scss: ^4.1.0
@@ -1384,7 +1384,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.9.0":
+"eslint@npm:8.9.0":
   version: 8.9.0
   resolution: "eslint@npm:8.9.0"
   dependencies:
@@ -3283,7 +3283,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint@npm:^14.5.1":
+"stylelint@npm:14.5.1":
   version: 14.5.1
   resolution: "stylelint@npm:14.5.1"
   dependencies:
