@@ -14,7 +14,9 @@
   },
   "license": "MIT",
   "scripts": {
-    "lint": "eslint --fix ./"
+    "lint": "eslint --fix ./",
+    "ci": "run-s \"ci:*\"",
+    "ci:lint": "eslint ./"
   },
   "dependencies": {
     "stylelint-config-recess-order": "^3.0.0",
@@ -27,6 +29,7 @@
   "devDependencies": {
     "@jenssimon/eslint-config-base": "5.3.1",
     "eslint": "8.10.0",
+    "npm-run-all": "4.1.5",
     "stylelint": "14.5.3"
   },
   "eslintConfig": {

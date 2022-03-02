@@ -1,4 +1,4 @@
-[![NPM version][npm-image]][npm-url] [![Downloads][npm-downloads-image]][npm-url] ![star this repo][gh-stars-image]][gh-url] [![fork this repo][gh-forks-image]][gh-url] [![Build Status][travis-image]][travis-url] ![Code Style][codestyle-image]
+[![NPM version][npm-image]][npm-url] [![Downloads][npm-downloads-image]][npm-url] ![star this repo][gh-stars-image]][gh-url] [![fork this repo][gh-forks-image]][gh-url] [![Build Status][gh-status-image]][gh-url]
 
 # stylelint-config
 
@@ -54,7 +54,7 @@ This is the configuration for the Salesforce Commerce Cloud (SFCC) Storefront Re
 
 ## License
 
-MIT © 2021 [Jens Simon](https://github.com/jenssimon)
+MIT © 2022 [Jens Simon](https://github.com/jenssimon)
 
 [npm-url]: https://www.npmjs.com/package/@jenssimon/stylelint-config
 [npm-image]: https://badgen.net/npm/v/@jenssimon/stylelint-config
@@ -63,8 +63,4 @@ MIT © 2021 [Jens Simon](https://github.com/jenssimon)
 [gh-url]: https://github.com/jenssimon/stylelint-config
 [gh-stars-image]: https://badgen.net/github/stars/jenssimon/stylelint-config
 [gh-forks-image]: https://badgen.net/github/forks/jenssimon/stylelint-config
-
-[travis-url]: https://travis-ci.com/jenssimon/stylelint-config
-[travis-image]: https://travis-ci.com/jenssimon/stylelint-config.svg?branch=master
-
-[codestyle-image]: https://badgen.net/badge/code%20style/airbnb/f2a
+[gh-status-image]: https://badgen.net/github/status/jenssimon/stylelint-config
