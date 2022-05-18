@@ -16,7 +16,11 @@
   "scripts": {
     "lint": "eslint --fix ./",
     "ci-test": "run-s \"ci-test:*\"",
-    "ci-test:lint": "eslint ./"
+    "ci-test:lint": "eslint ./",
+    "commit": "cz",
+    "postinstall": "husky install",
+    "prepack": "pinst --disable",
+    "postpack": "pinst --enable"
   },
   "dependencies": {
     "stylelint-config-recess-order": "^3.0.0",
