@@ -47,7 +47,10 @@
   "eslintConfig": {
     "extends": [
       "@jenssimon/base"
-    ]
+    ],
+    "rules": {
+      "unicorn/prefer-module": "off"
+    }
   },
   "packageManager": "yarn@3.2.2",
   "config": {
