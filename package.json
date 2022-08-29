@@ -13,6 +13,14 @@
     "url": "https://github.com/jenssimon/stylelint-config"
   },
   "license": "MIT",
+  "files": [
+    "/index.js",
+    "/base.js",
+    "/base-order.js",
+    "/order.js",
+    "/sfra.js",
+    "/lib"
+  ],
   "scripts": {
     "lint": "eslint --fix ./",
     "ci-test": "run-s \"ci-test:*\"",
@@ -34,7 +42,7 @@
   "devDependencies": {
     "@commitlint/cli": "17.1.1",
     "@commitlint/config-conventional": "17.1.0",
-    "@jenssimon/eslint-config-base": "6.1.1",
+    "@jenssimon/eslint-config-base": "6.2.0",
     "commitizen": "4.2.5",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.23.0",

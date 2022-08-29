@@ -729,9 +729,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jenssimon/eslint-config-base@npm:6.1.1":
-  version: 6.1.1
-  resolution: "@jenssimon/eslint-config-base@npm:6.1.1"
+"@jenssimon/eslint-config-base@npm:6.2.0":
+  version: 6.2.0
+  resolution: "@jenssimon/eslint-config-base@npm:6.2.0"
   dependencies:
     "@babel/core": ^7.18.13
     "@babel/eslint-parser": ^7.18.9
@@ -741,18 +741,18 @@ __metadata:
     eslint-plugin-babel: ^5.3.1
     eslint-plugin-eslint-comments: ^3.2.0
     eslint-plugin-import: ^2.26.0
-    eslint-plugin-jest: ^27.0.0
+    eslint-plugin-jest: ^27.0.1
     eslint-plugin-jsx-a11y: ^6.6.1
     eslint-plugin-optimize-regex: ^1.2.1
     eslint-plugin-promise: ^6.0.1
-    eslint-plugin-react: ^7.31.0
+    eslint-plugin-react: ^7.31.1
     eslint-plugin-react-hooks: ^4.6.0
     eslint-plugin-react-redux: ^4.0.0
     eslint-plugin-sonarjs: ^0.15.0
     eslint-plugin-unicorn: ^43.0.2
   peerDependencies:
     eslint: ^7.32.0 || ^8.2.0
-  checksum: f35155dd5c129a3daec879f45aaf5bb657a8d55ca0747f2861a2a29775924e110732f3040a0a1cd8116f9c08ae31d4260da0f015e427571acc7757f42a52ca48
+  checksum: 4b904420d439ded2738f3b12df274b900cc52ddd01003a8042ff9a3117ddba7acc660cf7fa7a508f0ffbde99bf380ad15ca704fb0c248b71dd2b177b51b567d6
   languageName: node
   linkType: hard
 
@@ -762,7 +762,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": 17.1.1
     "@commitlint/config-conventional": 17.1.0
-    "@jenssimon/eslint-config-base": 6.1.1
+    "@jenssimon/eslint-config-base": 6.2.0
     commitizen: 4.2.5
     cz-conventional-changelog: 3.3.0
     eslint: 8.23.0
@@ -3072,9 +3072,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:^27.0.0":
-  version: 27.0.0
-  resolution: "eslint-plugin-jest@npm:27.0.0"
+"eslint-plugin-jest@npm:^27.0.1":
+  version: 27.0.1
+  resolution: "eslint-plugin-jest@npm:27.0.1"
   dependencies:
     "@typescript-eslint/utils": ^5.10.0
   peerDependencies:
@@ -3085,7 +3085,7 @@ __metadata:
       optional: true
     jest:
       optional: true
-  checksum: 75da3198a9d193b5cf4e4d04181277b30a57f7a675fb9fb50c94e450cc4c75aebd594d4f62dc45dd32997a9a780b4e0ecfcaf50ca59a33e4e3bea47204cf6def
+  checksum: 269d4dc46bb925eb4c19106fd9e03775a863f53e05716628cc47777abc15887775ee47d73c4f8bdd98bb26b7462d8d8f654610bb2a367f8c97881204a2c3f42e
   languageName: node
   linkType: hard
 
@@ -3176,7 +3176,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:^7.31.0":
+"eslint-plugin-react@npm:^7.31.1":
   version: 7.31.1
   resolution: "eslint-plugin-react@npm:7.31.1"
   dependencies:
