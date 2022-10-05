@@ -42,7 +42,7 @@
   "devDependencies": {
     "@commitlint/cli": "17.1.2",
     "@commitlint/config-conventional": "17.1.0",
-    "@jenssimon/eslint-config-base": "6.3.6",
+    "@jenssimon/eslint-config-base": "6.3.7",
     "commitizen": "4.2.5",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.24.0",
@@ -61,7 +61,7 @@
       "unicorn/prefer-module": "off"
     }
   },
-  "packageManager": "yarn@3.2.3",
+  "packageManager": "yarn@3.2.4",
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
