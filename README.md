@@ -54,7 +54,7 @@ This is the configuration for the Salesforce Commerce Cloud (SFCC) Storefront Re
 
 ## License
 
-MIT © 2022 [Jens Simon](https://github.com/jenssimon)
+MIT © 2023 [Jens Simon](https://github.com/jenssimon)
 
 [npm-url]: https://www.npmjs.com/package/@jenssimon/stylelint-config
 [npm-image]: https://badgen.net/npm/v/@jenssimon/stylelint-config
