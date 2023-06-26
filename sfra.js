@@ -45,4 +45,4 @@ module.exports = {
     'shorthand-property-no-redundant-values': null,
     'string-quotes': null,
   },
-};
+}

@@ -22,7 +22,7 @@
     "/lib"
   ],
   "scripts": {
-    "lint": "eslint --fix ./",
+    "lint": "eslint --ext .js,.mjs,.cjs --fix ./",
     "ci-test": "run-s \"ci-test:*\"",
     "ci-test:lint": "eslint ./",
     "commit": "cz",

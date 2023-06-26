@@ -1,3 +1,3 @@
-const common = require('./lib/common');
+const common = require('./lib/common')
 
-module.export = common({}, true);
+module.export = common({}, true)
