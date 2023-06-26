@@ -1,3 +1,3 @@
-const standard = require('./lib/standard');
+const standard = require('./lib/standard')
 
-module.exports = standard(true);
+module.exports = standard(true)
