@@ -37,8 +37,8 @@
     "stylelint": ">=14.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.8.0",
-    "@commitlint/config-conventional": "^17.8.0",
+    "@commitlint/cli": "^18.0.0",
+    "@commitlint/config-conventional": "^18.0.0",
     "@jenssimon/eslint-config-base": "^7.3.0",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
