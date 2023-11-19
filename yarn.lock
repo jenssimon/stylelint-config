@@ -8985,13 +8985,13 @@ __metadata:
   linkType: hard
 
 "stylelint-config-recess-order@npm:^4.3.0":
-  version: 4.3.0
-  resolution: "stylelint-config-recess-order@npm:4.3.0"
+  version: 4.4.0
+  resolution: "stylelint-config-recess-order@npm:4.4.0"
   dependencies:
     stylelint-order: "npm:6.x"
   peerDependencies:
     stylelint: ">=15"
-  checksum: 040e6880883221203d056729003756e3d95b23b363c877d24a48c7fe285a5de0d4e602ab2bfdd8647389b2af6b2452153c52a5df6d0e0802717c4a72d6036ee6
+  checksum: 6ab4146746c43db9252a70c3d55018e2e67cd5f7d909f343093ec06bf832db7ce8aa4a35e47dbac6f0e2937194d75ba392e5c70cff468bc9221afc8ee5292d3e
   languageName: node
   linkType: hard
 
