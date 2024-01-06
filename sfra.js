@@ -1,7 +1,6 @@
 module.exports = {
   extends: 'stylelint-config-standard-scss',
   rules: {
-    indentation: 4,
     'scss/at-import-no-partial-leading-underscore': true,
     'scss/at-import-partial-extension-blacklist': ['scss'],
     'scss/dollar-variable-no-missing-interpolation': true,
@@ -14,20 +13,15 @@ module.exports = {
       ],
     }],
     'at-rule-no-unknown': null,
-    'block-closing-brace-newline-after': ['always', { ignoreAtRules: ['if', 'else'] }],
     'font-family-no-missing-generic-family-keyword': null,
     'no-descending-specificity': null,
     'no-duplicate-selectors': null,
-
-    'max-empty-lines': null,
 
     'alpha-value-notation': null,
     'color-function-notation': null,
     'font-family-name-quotes': null,
     'function-url-quotes': null,
     'import-notation': null,
-    'max-line-length': null,
-    'no-empty-first-line': null,
     'number-max-precision': null,
     'property-no-vendor-prefix': null,
     'scss/at-mixin-argumentless-call-parentheses': null,
@@ -43,6 +37,5 @@ module.exports = {
     'selector-id-pattern': null,
     'selector-not-notation': null,
     'shorthand-property-no-redundant-values': null,
-    'string-quotes': null,
   },
 }
