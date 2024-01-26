@@ -24,7 +24,7 @@
   "scripts": {
     "lint": "eslint --ext .js,.mjs,.cjs ./",
     "commit": "cz",
-    "postinstall": "husky install",
+    "postinstall": "husky",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable",
     "semantic-release": "semantic-release"
