@@ -30,7 +30,7 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "stylelint-config-recess-order": "^4.3.0",
+    "stylelint-config-recess-order": "^5.0.0",
     "stylelint-config-standard-scss": "^13.0.0"
   },
   "peerDependencies": {
