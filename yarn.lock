@@ -9103,13 +9103,13 @@ __metadata:
   linkType: hard
 
 "stylelint-config-recess-order@npm:^5.0.0":
-  version: 5.0.1
-  resolution: "stylelint-config-recess-order@npm:5.0.1"
+  version: 5.1.0
+  resolution: "stylelint-config-recess-order@npm:5.1.0"
   dependencies:
     stylelint-order: "npm:^6.0.4"
   peerDependencies:
     stylelint: ">=16"
-  checksum: 10c0/9a71468d7df4bfa50ca3787352d9d8eabdf2d7bbc15e10c981cd71c6bb6c71b1540bb1a933c7726c143a565b53fa94c69950edc82abd0b991129553824d173cb
+  checksum: 10c0/862dc6fe253d44ec09474377bd09c53e13b53d2a781d5f150ab9979dfb1616a77ebb1a149b4e0c277fac47d81192ed7115fd8f0f951e5019d88ecb49aec354eb
   languageName: node
   linkType: hard
 
