@@ -2,6 +2,7 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 import { FlatCompat } from '@eslint/eslintrc'
+import { fixupConfigRules } from '@eslint/compat'
 
 
 // mimic CommonJS variables -- not needed if using CommonJS
@@ -14,20 +15,28 @@ const compat = new FlatCompat({
 
 
 export default [
-  ...compat.config({
+  ...fixupConfigRules(compat.config({
     extends: [
       '@jenssimon/eslint-config-base',
     ],
     rules: {
-      'unicorn/prefer-module': 'off',
+      'unicorn/no-null': 'off',
     },
-  }),
-  {
-    languageOptions: {
-      ecmaVersion: 2022,
-      sourceType: 'module',
-    },
-  },
+    overrides: [
+      {
+        files: ['*.js'],
+        rules: {
+          'unicorn/prefer-module': 'off',
+        },
+      },
+    ],
+  })).map((rule) => ({
+    files: [
+      '**/*.js',
+      '**/*.mjs',
+    ],
+    ...rule,
+  })),
   {
     ignores: [
       '.yarn/',
