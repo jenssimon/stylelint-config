@@ -24,7 +24,6 @@
   "scripts": {
     "lint": "ESLINT_USE_FLAT_CONFIG=true eslint .",
     "commit": "cz",
-    "postinstall": "husky",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable",
     "semantic-release": "semantic-release"
