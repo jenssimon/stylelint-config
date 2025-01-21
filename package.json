@@ -22,7 +22,7 @@
     "/lib"
   ],
   "scripts": {
-    "lint": "ESLINT_USE_FLAT_CONFIG=true eslint .",
+    "lint": "eslint .",
     "commit": "cz",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable",
@@ -55,9 +55,6 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "lint-staged": {
-    "**/*.{js,mjs}": "eslint"
   },
   "release": {
     "branches": [
