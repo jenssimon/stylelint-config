@@ -38,12 +38,11 @@
   "devDependencies": {
     "@commitlint/cli": "^19.0.0",
     "@commitlint/config-conventional": "^19.0.0",
-    "@eslint/compat": "^1.2.4",
     "@eslint/eslintrc": "^3.2.0",
     "@jenssimon/eslint-config-base": "^8.0.0",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.52.0",
+    "eslint": "^9.18.0",
     "husky": "^9.0.0",
     "lint-staged": "^15.0.2",
     "pinst": "^3.0.0",
