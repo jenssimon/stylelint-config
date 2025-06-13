@@ -8962,13 +8962,13 @@ __metadata:
   linkType: hard
 
 "stylelint-config-recess-order@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "stylelint-config-recess-order@npm:6.0.0"
+  version: 6.1.0
+  resolution: "stylelint-config-recess-order@npm:6.1.0"
   dependencies:
     stylelint-order: "npm:^6.0.4"
   peerDependencies:
     stylelint: ">=16"
-  checksum: 10c0/1c8af42219d769a3ec5c195ac296c62d51dc583c6144a729ea802f69c249fd2d4b1aa44cb31ff2121cfbe4597c7f4c36c8d82c15789cf657f2f7493b0c8c2841
+  checksum: 10c0/4c631e41164f8b061c1f9ccdd58683f8fa4f99236bee33f89c3d3db60424f896c05bd3f4ce0bb641239d1a21bd9efb51dc5156898c6b81de043edbdc09b538c8
   languageName: node
   linkType: hard
 
