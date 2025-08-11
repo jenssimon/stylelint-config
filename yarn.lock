@@ -9131,12 +9131,12 @@ __metadata:
   linkType: hard
 
 "stylelint-config-recess-order@npm:^7.0.0":
-  version: 7.1.0
-  resolution: "stylelint-config-recess-order@npm:7.1.0"
+  version: 7.2.0
+  resolution: "stylelint-config-recess-order@npm:7.2.0"
   peerDependencies:
     stylelint: ">=16.18"
     stylelint-order: ">=7"
-  checksum: 10c0/b2e617c99df5e936f47779c238cefa76008a7da0c708f5f567dff3d1032d505262d50daf67baaeab4b8afe87663e0bb5ff0c2ff580024e99191ba2e315f2ee0e
+  checksum: 10c0/f5dfe243bb103759747a1f7ce93336d686f0e27e282daa55a3005083a19fa3918457eeaa4fbfb153d275b917f75149307b198bb61e4730d2bce763aa9d5f1185
   languageName: node
   linkType: hard
 
