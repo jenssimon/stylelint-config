@@ -2,12 +2,28 @@
 
 # stylelint-config
 
+> [!WARNING]
+> **DEPRECATION:**
+> This package isn't useful anymore.
+>
+>
+> This configuration perfectly does the job:
+>
+> ```json
+> {
+>   "extends": [
+>     "stylelint-config-standard",
+>     "stylelint-config-recess-order"
+>   ]
+> }
+> ```
+
 > A collection of shareable Stylelint configurations
 
 ## Installation
 
 ```sh
-$ yarn add @jenssimon/stylelint-config --dev
+yarn add @jenssimon/stylelint-config --dev
 ```
 
 ## Configurations
