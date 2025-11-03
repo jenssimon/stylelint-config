@@ -1,15 +1,38 @@
-import { configs } from '@jenssimon/eslint-config-base'
+import path from 'node:path'
+
+import { defineConfig } from 'eslint/config'
+import { includeIgnoreFile } from '@eslint/compat'
+import js from '@eslint/js'
+import { configs, plugins } from 'eslint-config-airbnb-extended'
+import { configs as eslintConfigs } from '@jenssimon/eslint-config-base'
 import globals from 'globals'
 
 
-export default [
+const gitignorePath = path.resolve('.', '.gitignore')
+
+
+const jsConfig = [
+  {
+    name: 'js/config',
+    ...js.configs.recommended,
+  },
+  plugins.stylistic,
+  plugins.importX,
+  ...configs.base.recommended,
+]
+
+
+export default defineConfig(
+  includeIgnoreFile(gitignorePath),
   {
     ignores: [
       '.yarn/',
     ],
   },
 
-  ...configs.base,
+  jsConfig,
+
+  eslintConfigs.base,
 
   {
     rules: {
@@ -30,4 +53,4 @@ export default [
       'unicorn/prefer-module': 'off',
     },
   },
-]
+)
